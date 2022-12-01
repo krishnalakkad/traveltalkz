@@ -1,0 +1,449 @@
+/* bebas-neue-regular - latin */
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bebas-neue-v9-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/bebas-neue-v9-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg');
+  /* Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg');
+  /* Legacy iOS */
+}
+
+/* --------------------------------------------------Custom CSS------------------------------------------------------------- */
+/* --------------------------------------------------Top CSS------------------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-bg: #0046df;
+  --text-color: white;
+}
+
+.main_img {
+  height: auto;
+}
+
+.main_img img {
+  height: 22vh;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22vh;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(34, 34, 34, 0.7);
+}
+
+.left_side {
+  color: white;
+}
+
+.right_side {
+  color: white;
+}
+
+.nav a {
+  font-family: roboto;
+  cursor: pointer;
+  font-size: 10px;
+  color: #cfcfcdc9 !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: #fff !important;
+}
+
+.h_line {
+  color: #cfcfcdc9 !important;
+}
+
+
+/* --------------------------------------------------Bottom header------------------------------------------------------------- */
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.bot .logo_name {
+  font-family: Bebas Neue;
+  color: white;
+  font-size: 20px;
+}
+
+.main_menu ul li a {
+  list-style: none;
+  font-family: Bebas Neue;
+  color: #fff !important;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.book_button {
+  border: none;
+  background-color: rgba(201, 201, 201, 0.6);
+  font-family: Bebas Neue;
+  color: black !important;
+  border-radius: 20px;
+  padding: 5px 25px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: white;
+  transition: 1s;
+}
+
+/* .content h4{
+  color: white;
+  font-family: Bebas Neue ;
+  font-size: 40px;
+  letter-spacing: 2px;
+} */
+
+.bottom_header .icon {
+  font-size: 17px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.inner span {
+  font-family: Roboto;
+  font-weight: 600;
+  color: rgba(228, 228, 228, 0.974);
+  font-size: 50px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.inner p {
+  font-family: Roboto;
+  font-weight: 300;
+  color: rgba(228, 228, 228, 0.974);
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+/* -------------------------------------------------- Second section------------------------------------------------------------- */
+.second_section {
+  background-image: url(./image/bg_img.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: auto;
+}
+
+.about_us h4 {
+  font-family: roboto;
+  font-size: 13px;
+  font-weight: 900;
+  color: #023e8a;
+}
+
+.about_us h2 {
+  font-family: Bebas Neue;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about_us p {
+  color: rgb(96, 96, 96);
+  text-align: justify;
+  font-size: 13px;
+  font-family: roboto;
+}
+
+.about_us2 {
+  padding: 30px 0;
+}
+
+.box {
+  height: 250px;
+  background-color: rgb(0, 53, 128);
+  padding: 30px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.box i {
+  color: white;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.box h4 {
+  color: #90e0ef;
+  font-family: Bebas Neue;
+  font-size: 22px;
+}
+
+.box p {
+  color: white;
+  font-size: 12px;
+  font-family: roboto;
+}
+
+.box:hover {
+  /* box-shadow: 3px 3px 8px rgba(60,60,60, 0.715) , -3px -3px 8px rgba(60, 60, 60, 0.715); */
+  border: 4px dotted white;
+}
+
+.welcome {
+  padding: 70px 0;
+
+}
+
+.welcome img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.welcome h2 {
+  padding: 10px 0;
+  font-family: Bebas Neue;
+  color: black;
+}
+
+.welcome p {
+  font-size: 15px;
+  font-family: roboto;
+  color: #999999;
+}
+
+.welcome .contant {
+  padding: 0 30px;
+}
+
+.welcome .count {
+  text-align: center;
+}
+
+.welcome h3 {
+  color: #023e8a;
+  font-weight: 500;
+  font-family: Bebas Neue;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+.welcome span{
+  color: gray;
+  font-family: roboto;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------------------------------------- Third section------------------------------------------------------------- */
+
+.third_section img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  background-position: center;
+}
+
+.third_section {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.third_section .bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./image/bg_img3.webp);
+  width: 100%;
+  height: 500px;
+  padding: 50px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg h4 {
+  font-family: Bebas Neue;
+  color: rgb(0, 53, 128);
+  font-size: 20px;
+}
+
+.bg h2 {
+  font-family: 'Segoe UI';
+  /* color:; */
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.bg p {
+  font-family: 'Segoe UI';
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(75, 75, 75);
+}
+
+.bg .btn1 {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background-color: rgb(0, 53, 128);
+  color: white;
+  transition: 1s;
+  box-sizing: border-box;
+  border: 4px solid transparent;
+}
+
+.bg .btn2 {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: #03045e;
+  background-color: white;
+  transition: 1s;
+  box-sizing: border-box;
+  border: 4px solid transparent;
+}
+
+.bg .btn1:hover {
+  background-color: white;
+  color: #03045e;
+  border: 4px double #03045e;
+
+}
+
+.bg .btn2:hover {
+  background-color: #03045e;
+  color: white;
+  border: 4px double skyblue;
+}
+
+/* -------------------------------------------------- Fourth section------------------------------------------------------------- */
+.fourth_section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.parallex {
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 53, 128, 0.8), rgba(0, 53, 128, 0.8)), url(./image/bg_img2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.parallex h2 {
+  text-align: center !important;
+  color: white;
+  font-size: 45px;
+  font-family: Bebas Neue;
+  font-weight: 800;
+}
+
+.parallex p {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Bebas Neue;
+}
+
+.parallex .padding {
+  padding: 50px 0;
+}
+
+/* -------------------------------------------------- Footer section------------------------------------------------------------- */
+.last_section {
+  padding-top: 50px;
+}
+
+.footer {
+  padding-top: 100px;
+  background-image: linear-gradient(rgba(46, 46, 46, 0.9), rgba(46, 46, 46, 0.9)), url(./image/footer_img.webp);
+  height: auto;
+  width: 100%;
+  padding: 50px;
+}
+
+.footer h2 {
+  font-family: 'Segoe UI';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.footer p {
+  color: rgb(211, 211, 211);
+  font-family: 'Segoe UI';
+  font-family: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.footer_img img {
+  width: 65px;
+  height: 65px;
+}
+
+.footer i {
+  color: rgb(211, 211, 211);
+  font-size: 14px;
+}
+
+.footer span {
+  color: rgb(211, 211, 211);
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer h1 {
+  font-size: 15px;
+  color: rgb(211, 211, 211);
+  text-align: center;
+  letter-spacing: 1px;
+}

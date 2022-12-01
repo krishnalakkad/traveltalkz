@@ -1,0 +1,368 @@
+/* bebas-neue-regular - latin */
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bebas-neue-v9-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/bebas-neue-v9-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg');
+  /* Legacy iOS */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/roboto-v30-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/roboto-v30-latin-regular.svg#Roboto') format('svg');
+  /* Legacy iOS */
+}
+
+/* ------------------------------------------------------Blog_2 css--------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blog_2 {
+  padding: 70px 0;
+}
+
+.blog_2 h2 {
+  color: #023e8a;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.blog_2 p {
+  color: black;
+  font-family: roboto;
+  text-align: center;
+  color: #8D7777;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.blog_2 .box2 img {
+  width: 100%;
+  height: 250px
+}
+
+.blog_2 .box2 h1 {
+  font-size: 18px;
+  color: #012656;
+  font-weight: 500;
+}
+
+.blog_2 h3 {
+  padding: 8px 0;
+  font-size: 15px;
+  color: #8D7777;
+  font-weight: 400;
+}
+
+.blog_2 h4 {
+  font-size: 15px;
+  color: #8D7777;
+  font-weight: 400;
+}
+
+.blog_2 h5 {
+  font-size: 15px;
+  color: #8D7777;
+  font-weight: 400;
+}
+
+.blog_2 h6 {
+  font-size: 15px;
+  color: #023e8a;
+  font-weight: 400;
+}
+
+.star i {
+  font-size: 12px;
+  color: goldenrod;
+  padding-right: 2px;
+}
+
+.star span {
+  font-size: 12px;
+  color: rgb(93, 93, 93);
+}
+
+.imgbox {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blog_2 img {
+  transition: 1s;
+}
+
+.box2 .content {
+  border-width: 0 1px 1px 1px;
+  border-color: rgba(100, 100, 100, 0.5);
+  border-style: groove;
+
+}
+
+.box2 img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------Service css--------------------------------------------------------- */
+.service2 {
+  /* padding: 70px 0; */
+  height: auto;
+}
+
+.service2 img {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+}
+
+.service2 .contant {
+  top: 200px;
+  left: 0;
+}
+
+.service2 h1 {
+  text-align: center;
+  font-family: Bebas Neue;
+  color: #004aaa;
+  font-size: 20px;
+}
+
+.service2 h2 {
+  text-align: center;
+  font-family: roboto;
+  color: #012656;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.service2 .box3 {
+  width: 100%;
+  height: auto;
+  background-color: aliceblue;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.box3 p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  font-family: roboto;
+}
+
+.box3 h3 {
+  text-align: center;
+  font-family: Bebas Neue;
+  padding-top: 5px;
+  color: #012656;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  padding-top: 15px;
+}
+
+.service2 .icon {
+  font-size: 30px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  background-color: #012656;
+  color: white;
+  margin: auto;
+  border-radius: 50%;
+  transition: 1s;
+  border: 4px double transparent;
+}
+.service2 .icon:hover{
+  border: 4px double #012656;
+  background-color: white;
+  color: #012656;
+}
+
+
+/* ------------------------------------------------------Contact css--------------------------------------------------------- */
+.contact .box4 {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin: 40px 0;
+  padding: 40px;
+}
+
+.contact {
+  background-color: rgb(246, 246, 246);
+}
+
+.box4 .icon {
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-color: #012656;
+  color: white;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.box4 h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+  color: #012656;
+  font-family: roboto;
+  font-weight: 600;
+}
+
+.box4 p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 13px;
+
+  font-family: roboto;
+  font-weight: 500;
+}
+
+iframe {
+  padding: 20PX 0;
+  width: 100%;
+  height: 300px;
+}
+
+.contact h3 {
+  text-align: center;
+  color: #012656;
+  text-shadow: 0px 0px 1px black;
+}
+
+/* ------------------------------------------------------Destination css--------------------------------------------------------- */
+
+
+.destination {
+  padding: 70px 0;
+}
+
+.destination h2 {
+  color: #023e8a;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.destination p {
+  color: black;
+  font-family: roboto;
+  text-align: center;
+  color: #8D7777;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.destination .box3 img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.destination h1 {
+  font-family: roboto;
+  color: rgba(100, 100, 100, 0.5);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.destination h4{
+  font-family: roboto;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+} 
+
+.destination h5{
+  font-family: roboto;
+  color: rgba(100, 100, 100, 0.5);
+  font-size: 15px;
+  padding-left: 5px;
+  font-weight: 600;
+}
+.destination .icon{
+  color: #FAB74D;
+}
+.destination h6{
+  font-family: roboto;
+  font-size: 15px;
+  color: black;
+}
+.destination span{
+  font-family: roboto;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.destination i{
+  color: rgba(100, 100, 100, 0.5);
+}
+
+.star span {
+  font-size: 12px;
+  color: rgb(93, 93, 93);
+}
+
+.imgbox {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.destination img {
+  transition: 1s;
+}
+
+
+.destination .content {
+  border-width: 0 1px 1px 1px;
+  border-color: rgba(84, 84, 84, 0.2);
+  border-style: groove;
+  padding: 15px;
+}
+
+.box3 img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
